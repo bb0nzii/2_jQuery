@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.rect{
+    background: #98bf21;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* 포지션에 변동이 필요할 때 */
+    top: 50px;
+}
+
+.btn-wrap{
+    position: relative;
+    height: 250px;
+}
+
+
+.time{
+    background: #035900;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* 포지션에 변동이 필요할 때 */
+    top: 50px;
+}
+
+.typo{
+    background-color: yellow;
+    color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        pre{background: lightyellow; padding: 10px;}
+        h1::before{content: "✨";}
+        h1::after{content: "✨";}
+    </style>
+    <title>animate</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+<h1>animate()</h1>
+<pre>
+- 사용자 정의 애니메이션을 만들 때 사용
+- $(selector).animate({params}, speed, callback)
+- params : 애니메이션에 적용할 css 속성을 정의
+    → "slow", "fast" 또는 밀리초 값을 사용
+- 큐 : 내부 대기열을 만듦 → 호출을 하나씩 실행
+</pre>
+
+<div class="btn-wrap">
+<button class="btn btn-outline-primary btn-rect">Start Animation</button>
+<div class="rect mt-3"></div>
+</div>
+
+<h1 class="my-5">toggle</h1>
+<button class="btn btn-danger sh">toggle</button>
+<div class="bg-danger text-white p5 w-25 text-center mt-3 sh">rect</div>
+
+<hr>
+
+<div class="btn-wrap">
+<h1>큐 대기열</h1>
+<button class="btn btn-light timeB">순서대로 진행되는 애니메이션</button>
+<div class="time mt-5"></div>
+</div>
+
+<hr>
+
+<div class="btn-wrap">
+<h1>박스 크게 하고 글씨 키우기</h1>
+<button class="btn btn-secondary typoB">순차적 애니메이션</button>
+<section class="typo">Hello World</section>
+</div>
+
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/4_animate.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>  

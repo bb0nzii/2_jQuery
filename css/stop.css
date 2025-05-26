@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#panel{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background: #888;
+    font-size: 25px;
+    display: none;
+}
